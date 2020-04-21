@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./ChatInput.scss";
+import "../../styles/ChatInput.scss"
 
 class ChatInput extends Component {
   render() {
