@@ -28,7 +28,7 @@ class ChatRoom extends React.Component {
 
   send(event) {
     if(event.keyCode === 13) {
-      sendMsg(this.props.username + ": " + event.target.value);
+      sendMsg(this.props.location.state.username + ": " + event.target.value);
       event.target.value = "";
     }
   }
